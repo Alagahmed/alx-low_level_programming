@@ -1,18 +1,15 @@
 #include "main.h"
 /**
-* main - function
+* print_alphabet - this is the function of the task
 * Return: 0
 */
-int main(void)
+void print_alphabet(void);
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar("\n");
 return (0);
 }
